@@ -100,6 +100,7 @@ def main():
         print(args)
     elif ":" in LISTEN:
         args["host"], args["port"] = LISTEN.split(":", 1)
+        args["port"] = int(args["port"])
     web.run_app(app, **args)
 
 
