@@ -1,5 +1,7 @@
 # Spacewidget
 
+⚠️ This repository is archived. In our internal repo is spacewidget2.
+
 A widget to display how many people are present.
 
 ## Relay
